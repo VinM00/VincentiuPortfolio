@@ -1,7 +1,8 @@
 # VincentiuPortfolio
 Personal portfolio and resume
 
-![image](https://github.com/VincentiuMocanu/VincentiuPortfolio/assets/85823292/fe6f5bf1-3a73-4e77-a184-05778e0b1f23)
 
+![Screenshot from 2023-10-06 19-59-10](https://github.com/VincentiuMocanu/VincentiuPortfolio/assets/85823292/f0b3e903-0a41-4d41-a239-e021c57371c8)
 
-![image](https://github.com/VincentiuMocanu/VincentiuPortfolio/assets/85823292/c11764e1-cd8f-42c4-9f8b-97462f5011c3)
+![Screenshot from 2023-10-06 19-58-36](https://github.com/VincentiuMocanu/VincentiuPortfolio/assets/85823292/2a03e539-f3df-4a0d-a903-000855ffffb4)
+
