@@ -1,3 +1,3 @@
-# Vincentiu
+# Vincentiu's web portfolio
 
-Little projects I am working on:
+The purpose of the following code is to learn  web developing in Flask
