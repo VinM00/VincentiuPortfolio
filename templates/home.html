@@ -1,64 +1,144 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="light">
-  <head>
+<html lang="en" data-bs-theme="dark">
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vincentiu Mocanu</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    
- </head>
-  <body>
-                          <!-- Background image -->
-<div
-  class="bg-image"
-  style="
-    background-image: url('https://mdbootstrap.com/img/new/fluid/city/018.jpg');
-    height: 20vh;
-    width: 150vw;
-  ">
-  
-  </div>
-                          <!-- Background image -->
-    <div class="container" >
-          <h2 class='text-center mt-4 mb-4 shadow-lg p-3 mb-5 bg-body-tertiary rounded'>Vincentiu Mocanu</h2>
-          <p class='lead'>
-          🎓 Outgoing, resourceful, and pragmatic, I am perpetually committed to delivering optimal results in my work. My dedication to continuous learning and innate curiosity are evident in both my academic journey and professional experiences. 
-          <p></p>
-          <p class='lead'>
-          🚀 I am driven by the pursuit of knowledge and thrive on challenges, making me a lifelong learner with an insatiable thirst for knowledge.
-          </p>          
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
-          <h3> Skills</h3>
-          <h3 class="badge bg-light text-black mb-0">Python</h3>
-          <h3 class="badge bg-light text-black mb-0">Matlab & Simulink</h3>
-          <h3 class="badge bg-light text-black mb-0">C++14, 17</h3>
-          <h3 class="badge bg-light text-black mb-0">C#</h3>
-          <h3 class="badge bg-light text-black mb-0">VBA for Excel</h3>    
-          <h3 class="badge bg-light text-black mb-0">Cradle scStream</h3>
-          
-          <p></p>
-      <div>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('static/images/image_interests.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            height: 800px;
+        }
 
-      <div class="container-md" >
-        <div class='row'>
-          <div class='col-lg-6 col-md-6 single-price'>
-            <p> </p>
-            <a href = "https://github.com/VincentiuMocanu">
-              <div class='top-part'>
-                <img src='https://camo.githubusercontent.com/bda9c6fadf4e0c133e3b1026cacb0f333fd0700799bc2310da8c89924da09cca/68747470733a2f2f692e70696e696d672e636f6d2f6f726967696e616c732f33302f62312f35302f33306231353063643438393230326462313331303039616339353430636563302e706e67' width="100" height="70"> 
-              <!--<h4>GitHub</h4>-->
-              <!--- <p class='mt-10'>All code files</p> -->
-              </div>
-            </a>
-          </div>
+        section.imported_interests {
+            background: url('static/images/image_freelancing.jpg') no-repeat center center fixed;
+            background-size: cover;
+            height: 1000px;
+        }
+
+        /* Add more styles as needed */
+
+        /* Style for header text */
+        h1 {
+            font-size: 3.5em;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Centered texts in each section */
+        .section {
+            text-align: center;
+            height: 800px;
+        }
+
+        #custom-menu {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            background-color: black;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            color: white;
+        }
+
+        #custom-menu li {
+            margin: 0;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        #custom-menu li:nth-child(2) a {
+            background-image: url('static/images/Info.jpg');
+        }
+
+        #custom-menu li:nth-child(3) a {
+            background-image: url('image3.jpg');
+        }
+
+        #custom-menu li:nth-child(4) a {
+            background-image: url('image4.jpg');
+        }
+
+        #custom-menu li:nth-child(5) a {
+            background-image: url('image5.jpg');
+        }
+
+        #custom-menu li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        #custom-menu .active {
+            background-color: #555;
+        }
+
+        #custom-menu .active a {
+            color: white;
+        }
+
+        .container img {
+            width: 50%;
+            height: auto;
+        }
+
+        .btn-full-width {
+            width: 100%;
+            height: 100%;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        #fullpage {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="fullpage">
+        <ul id="custom-menu">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#freelancing">Freelancing</a></li>
+            <li><a href="https://github.com/itsVinM">GitHub</a></li>
+            <li><a href="mailto:vincentiu.mocanu@gmail.com">Email Me</a></li>
+            <li><a href="https://www.linkedin.com/in/vincentiu-mocanu-b06274182/">Linkedin</a></li>
+        </ul>
+    </div>
+
+    <div class="section" id="home">
+        <div class="container marketing">
+            <div class="row featurette">
+                <div class="section" data-anchor="home">
+                    <div class="col-md-14" style="padding-top:100px;">
+                        <h1 class="featurette-heading">Hi, I am Vincentiu</h1>
+                        <p class="lead">a Software and Simulation Engineer</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      {% include "portfolio.html" %}
-      {% include 'nav.html' %}
-      {% include 'footer.html' %}
+    </div>
 
-      </div>
+    <div id="interests">
+        <section class="imported_interests">
+            {% include "interests.html"%}
+        </section>
+    </div>
+
 </body>
-  
-</html>
 
+</html>
